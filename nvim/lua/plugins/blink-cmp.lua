@@ -34,9 +34,12 @@ return {
         border = "single",
         draw = { columns = { { "label", "label_description", gap = 1 }, { "kind_icon", "kind" } } },
       },
+
       documentation = { window = { border = "single" } },
+
       list = { selection = { preselect = true } },
     },
+
     signature = { window = { border = "single" } },
 
     -- Default list of enabled providers defined so that you can extend it
